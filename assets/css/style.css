@@ -1,0 +1,1067 @@
+/*******standard rules******************/
+@import url('https://fonts.googleapis.com/css2?family=Cairo&display=swap');
+
+:root {
+    --main-color: #cc485d;
+    --main-color2: #ff8a5c;
+}
+
+body {
+    font-family: 'Cairo', sans-serif;
+}
+body,html{
+    overflow-x: hidden;
+}
+
+/*********header*****************/
+header .header-bg {
+    background: url('../imgs/bg.png');
+    background-size: cover;
+    height: 600px;
+
+
+}
+
+header .header-bg .images {
+    position: relative;
+
+}
+
+header .header-bg .images .word {
+    width: 250px;
+    height: 150px;
+
+
+}
+
+header .header-bg .images .bag {
+    width: 50px;
+    height: 60px;
+    position: absolute;
+    top: 74%;
+    left: 50%;
+
+}
+
+header .title {
+    position: absolute;
+    top: 2%;
+    right: 6%;
+    color: white;
+    cursor: pointer;
+
+}
+
+header .title i {
+    margin: 0 10px;
+    font-size: 25px;
+}
+
+header .title a {
+    text-decoration: none;
+    color: var(--main-color);
+    background-color: white;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    padding: 2px 30px;
+}
+
+.gonow {
+    position: absolute;
+    width: 60%;
+    height: 20%;
+    bottom: 50%;
+    z-index: 210201;
+    
+}
+.gonowbtn{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 323232;
+    
+}
+
+/**********first page***************************/
+.search-items {
+    margin-bottom: 100px;
+
+}
+
+.search-items .row .search {
+    background-image: linear-gradient(to right, var(--main-color), var(--main-color2));
+    padding: 40px 30px;
+    box-shadow: 1px 5px 20px 1px rgba(0, 0, 0, .4);
+    margin-top: -60px;
+}
+
+.search-items .row .search form .form-group {
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.search-items .row .search form .form-group input {
+    width: 100%;
+    border-radius: 30px;
+    padding: 15px 20px;
+    border: 0;
+}
+
+.search-items .row .search form .form-group select {
+    width: 100%;
+    border-radius: 30px;
+    height: 55px;
+    padding: 0 20px;
+}
+
+.search-items .row .search a {
+    text-decoration: none;
+    color: var(--main-color);
+    font-size: 15px;
+    background: #fff;
+    display: inline-block;
+    border-radius: 30px;
+    padding: 0px 50px;
+    height: 55px;
+    font-weight: bold;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/******section choose item*******/
+.choose-items {
+    text-align: center;
+    margin-bottom: 50px;
+
+}
+
+.choose-items .service {
+    background-image: linear-gradient(to bottom, var(--main-color), var(--main-color2));
+    border-radius: 50%;
+    width: 140px;
+    height: 140px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    align-items: center;
+}
+
+.choose-items .service i {
+    color: #fff;
+    font-size: 45px;
+}
+
+.choose-items form .form-control {
+    border: 0;
+    background: #282828;
+    border-radius: 25px;
+    color: #fff;
+    height: auto;
+    text-align: center;
+    font-size: 10px;
+    width: 140px;
+}
+
+
+/*********section recently ads*****************/
+.recently-ads {
+    margin-right: 40px;
+    cursor: pointer;
+}
+
+.recently-ads h2 {
+    text-align: right;
+    color: var(--main-color);
+    border-right: 5px solid var(--main-color2);
+    padding-right: 15px;
+    margin: 30px 0px 60px 0;
+}
+
+.recently-ads .card {
+    border: 0;
+    background: #f5f5f5;
+    box-shadow: 1px 2px 5px rgba(0, 0, 0, .1);
+}
+
+.recently-ads .card .card-title {
+    text-align: center;
+    font-weight: bold;
+}
+
+.recently-ads .card .card-body ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    width: 100%;
+    text-align: right;
+}
+
+.recently-ads .card .card-body ul li {
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.recently-ads .card .card-body ul li i {
+    color: var(--main-color);
+    margin-left: 10px;
+}
+
+.recently-ads .more {
+    color: #fff;
+    background-image: linear-gradient(to right, var(--main-color), var(--main-color2));
+    border-radius: 25px;
+    padding: 10px 100px;
+    font-size: 20px;
+    text-decoration: none;
+    display: inline-block;
+    margin: 40px 0;
+}
+
+.subscribe-with-us {
+    background: url('../imgs/Rectangle 9.png');
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+}
+
+.subscribe-with-us h2 {
+    color: #fff;
+    padding: 30px 0 60px 0;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.subscribe-with-us form {
+    width: 50%;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+
+.subscribe-with-us form input {
+    border: 0;
+    border-radius: 30px;
+    padding: 15px 30px;
+    text-align: right;
+}
+
+.subscribe-with-us button {
+    color: var(--main-color2);
+    background: #fff;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 80px;
+    border-radius: 25px;
+    display: inline-block;
+    margin-bottom: 70px;
+    border: none;
+}
+
+
+/*********footer*************/
+footer {
+    background: url('../imgs/Rectangle 12.png');
+    background-size: cover;
+    padding-bottom: 30px;
+}
+
+footer .images {
+    position: relative;
+    text-align: right;
+}
+
+footer .word {
+    width: 250px;
+}
+
+footer .bag {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 74%;
+    left: 78%;
+}
+
+footer .container .row .col-lg-4 p {
+    color: #fff;
+    padding: 30px 0;
+    font-size: 14px;
+    text-align: right;
+}
+
+footer .container .row .col-lg-2 ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    padding-top: 50px;
+}
+
+footer .container .row .col-lg-2 ul li a {
+    text-decoration: none;
+    color: #fff;
+    display: inline-block;
+    padding-bottom: 10px;
+}
+
+footer .container .row .col-lg-3 .icons {
+    text-align: center;
+    padding-top: 50px;
+}
+
+footer .container .row .col-lg-3 .icons a {
+    text-decoration: none;
+}
+
+footer .container .row .col-lg-3 .icons a i {
+    color: #fff;
+    font-size: 30px;
+    padding-left: 10px;
+}
+
+footer .container .row .col-lg-3 .app {
+    padding-top: 50px;
+    text-align: center;
+}
+
+
+
+footer .container .row .col-lg-3 .app h3 {
+    color: #fff;
+    font-size: 20px;
+    line-height: 2;
+    padding-bottom: 20px;
+}
+
+footer .container .row .col-lg-3 .app .android {
+    background: #fff;
+    padding: 12px;
+    border-radius: 35px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+footer .container .row .col-lg-3 .app .android span {
+    color: var(--main-color);
+    font-size: 18px;
+    font-weight: bold;
+    display: inline-block;
+    position: relative;
+    top: -9px;
+    padding-left: 8px;
+    text-transform: capitalize;
+
+}
+
+footer .container .row .col-lg-3 .app .android i {
+    color: var(--main-color2);
+    font-size: 40px;
+}
+
+
+/****************advertise page*************************/
+
+
+
+.add-ads-information {
+    background: #f5f5f5;
+    padding: 50px 0;
+    padding-bottom: 150px;
+}
+
+.add-ads-information .container .row .col-lg-12 h2 {
+    text-align: right;
+    color: var(--main-color);
+    border-right: 5px solid var(--main-color2);
+    padding-right: 15px;
+    margin: 30px 0px 60px 0;
+}
+
+.add-ads-information .ads-details {
+    background: #eee;
+    box-shadow: 3px 5px 10px rgba(0, 0, 0, .2);
+    border-radius: 10px;
+    text-align: right;
+    padding: 20px;
+}
+
+.add-ads-information .ads-details .row form .form-group {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.add-ads-information .ads-details .row form .form-group label {
+    color: var(--main-color2);
+    font-weight: bold;
+    font-size: 22px;
+    padding-bottom: 10px;
+}
+
+.add-ads-information .ads-details .row form .form-group input,
+.add-ads-information .ads-details .row form .form-group select {
+    border: 0;
+    border-radius: 25px;
+    height: 50px;
+    padding: 0 20px;
+}
+
+.add-ads-information .ads-details .row form .form-group select option,
+.add-ads-information .ads-details .row form .form-group select option.select {
+    color: var(--main-color2);
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.add-ads-information .ads-details .row form .form-group textarea {
+    resize: none;
+    border: 0;
+    border-radius: 20px;
+    width: 100%;
+    padding: 20px;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+    outline: none;
+}
+
+.add-ads-information .ads-details .row form .form-group ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.add-ads-information .ads-details .row form .form-group ul li {
+    margin-left: 20px;
+    color: var(--main-color2);
+}
+
+.add-ads-information .ads-details .row form .form-group ul li i {
+    cursor: pointer;
+    color: #fff;
+    background: var(--main-color2);
+    font-size: 18px;
+    display: inline-block;
+    margin-right: 5px;
+    margin-top: 3px;
+}
+
+.add-ads-information .ads-details .row form .form-group ul li span {
+    font-weight: 600;
+}
+
+.add-ads-information .ads-details .row form .send {
+    background: linear-gradient(to top, var(--main-color), var(--main-color2));
+    text-decoration: none;
+    color: #fff;
+    font-size: 22px;
+    text-align: center;
+    font-weight: bold;
+    display: inline-block;
+    border-radius: 25px;
+    padding: 10px 100px;
+    margin: 30px 0;
+}
+
+.add-ads-information .ads-details .row img {
+    width: 100%;
+    margin-top: 50px;
+}
+
+/*************register page and login page and forget password page*****************************/
+
+.register-details {
+    background: #f5f5f5;
+    padding: 80px 0;
+}
+
+.register-details img {
+    width: 100%;
+}
+
+.register-details .container .row .col-lg-12 .register {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.register-details .container .row .col-lg-12 .register .signup {
+    background: #fff;
+    padding: 30px;
+    box-shadow: 1px 5px 20px 1px rgba(0, 0, 0, .4);
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.register-details .container .row .col-lg-12 .register .signup form .form-group {
+    position: relative;
+}
+
+.register-details .container .row .col-lg-12 .register .signup .form-group input {
+    background: var(--main-color);
+    border-radius: 30px;
+    height: 60px;
+    border: 0;
+    padding: 0 50px;
+    color: #fff;
+    margin: 100px 0;
+}
+
+.register-details .col-lg-12 .register .signup .form-group input::placeholder {
+    color: #fff;
+    font-size: 20px;
+}
+
+.register-details .container .row .col-lg-12 .register .signup .form-group i {
+    color: #fff;
+    position: absolute;
+    top: 17px;
+    font-size: 25px;
+    right: 17px;
+}
+
+.register-details .container .row .col-lg-12 .register .signup .link {
+    text-decoration: none;
+    color: #fff;
+    background: var(--main-color);
+    padding: 6px 100px;
+    border-radius: 25px;
+    font-size: 20px;
+}
+
+.register-details .container .row .col-lg-12 .register .signup .links {
+    margin: 60px 0;
+}
+
+.register-details .container .row .col-lg-12 .register .signup .links a {
+    text-decoration: none;
+    color: var(--main-color);
+}
+
+.register-details .container .row .col-lg-12 .register .signup .links .password {
+    float: right;
+}
+
+.register-details .container .row .col-lg-12 .register .signup p {
+    color: var(--main-color);
+    text-align: right;
+    margin-top: 40px;
+    position: relative;
+    padding-right: 25px;
+}
+
+.register-details .container .row .col-lg-12 .register .signup p:before {
+    content: '';
+    background: var(--main-color2);
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    position: absolute;
+    right: 5px;
+    top: 6px;
+}
+
+.register-details .container .row .col-lg-12 .register .image {
+    background: linear-gradient(to top, var(--main-color), var(--main-color2));
+    padding: 130px;
+}
+
+/*****************cars page*************************/
+
+.cars-section
+{
+    margin-bottom:100px;
+}
+.cars-section .container .row .search
+{
+    background-image: linear-gradient(to right, var(--main-color) , var(--main-color2));
+    padding:40px 30px;
+    box-shadow: 1px 5px 20px 1px rgba(0,0,0,.4);
+    margin-top:-60px;
+}
+.cars-section .container .row .search form .form-group
+{
+    margin-bottom:0;
+    padding-bottom:0;
+}
+.cars-section .container .row .search form .form-group input
+{
+    width:100%;
+    border-radius: 30px;
+    padding:15px 20px;
+    border:0;
+}
+.cars-section .container .row .search form .form-group select
+{
+    width:100%;
+    border-radius: 30px;
+    height: 55px;
+    padding:0 20px;
+}
+.cars-section .container .row .search a
+{
+    text-decoration: none;
+    color:var(--main-color);
+    font-size: 15px;
+    background: #fff;
+    display: inline-block;
+    border-radius: 30px;
+    padding:0px 50px;
+    height:55px;
+    font-weight: bold;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/***************favoruite ads ***********************/
+
+.favourite-ads
+{
+    padding:0 40px;
+    background: #eee;
+    padding-bottom:50px;
+}
+.favourite-ads h2
+{
+    text-align: right;
+    color:var(--main-color);
+    border-right: 5px solid var(--main-color2);
+    padding-right: 15px;
+    margin:30px 0px 60px 0;
+}
+.favourite-ads .card
+{
+    border:0;
+    background: #FFF;
+    box-shadow: 1px 2px 5px rgba(0,0,0,.1);
+}
+.favourite-ads .card .card-title
+{
+    text-align: center;
+    font-weight: bold;
+}
+.favourite-ads .card .card-body ul
+{
+    margin:0;
+    padding:0;
+    list-style: none;
+    width:100%;
+    text-align: right;
+}
+.favourite-ads .card .card-body ul li
+{
+    margin-bottom:20px;
+    font-size: 20px;
+}
+.favourite-ads .card .card-body ul li i
+{
+    color:var(--main-color);
+    margin-left: 10px;
+}
+.favourite-ads nav
+{
+    margin-top:40px;
+}
+.favourite-ads nav li a
+{
+    background: var(--main-color);
+    border:0;
+    border-radius: 5px;
+    display: inline-block;
+    margin-left: 10px;
+    text-decoration: none;
+    color:#fff;
+    font-size: 20px;
+    font-weight: 600;
+}
+.favourite-ads nav li a:hover
+{
+    background-color: var(--main-color);
+    color:#fff;
+}
+.favourite-ads .more
+{
+    color:#fff;
+    background-image: linear-gradient(to right, var(--main-color) , var(--main-color2));
+    border-radius: 25px;
+    padding:10px 100px;
+    font-size: 20px;
+    text-decoration: none;
+    display: inline-block;
+    margin:40px 0;
+}
+
+.favourite-ads .delete{
+    display: none;
+}
+
+/*******************car details page*****************************/
+
+.car-details-section
+{
+    padding:50px 0;
+    background: #f5f5f5;
+}
+.car-details-section .container .row .col-lg-8 .cars
+{
+    text-align: right;
+}
+.car-details-section .container .row .col-lg-8 h3
+{
+    font-weight: bold;
+    color:#282828;
+}
+.car-details-section .container .row .col-lg-8 .cars .list
+{
+    list-style: none;
+    margin:0;
+    padding:0;
+    display: flex;
+}
+.car-details-section .container .row .col-lg-8 .cars .list li
+{
+    margin-left: 10px;
+    color:var(--main-color2);
+    font-size: 20px;
+    font-weight: 600;
+}
+.car-details-section .container .row .col-lg-8 .cars .list li:after
+{
+    content:'|';
+    padding-right:10px;
+}
+.car-details-section .container .row .col-lg-8 .cars .list li:last-child:after
+{
+    content:''
+}
+.car-details-section .container .row .col-lg-8 .cars .car-image
+{
+    position: relative;
+    margin-top:30px;
+}
+.car-details-section .container .row .col-lg-8 .cars img
+{
+    width:100%;
+    border-radius: 0;
+}
+.car-details-section .container .row .col-lg-8 .cars .car-image .search
+{
+    position: absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background: rgba(0,0,0,.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: .4s;
+    opacity: 0;
+}
+.car-details-section .container .row .col-lg-8 .cars .car-image:hover .search
+{
+    opacity: 1;
+}
+.car-details-section .container .row .col-lg-8 .cars .car-image .search a
+{
+    text-decoration: none;
+    color:#fff;
+    font-size: 35px;
+}
+.car-details-section .container .row .col-lg-8 .favorite ul
+{
+    list-style: none;
+    margin:0;
+    padding:0;
+    display: flex;
+    justify-content: center;
+    margin:40px 0;
+}
+.car-details-section .container .row .col-lg-8 .favorite ul li
+{
+    text-align: center;
+    margin-left: 50px;
+}
+.car-details-section .container .row .col-lg-8 .favorite ul li i
+{
+    display: block; 
+    font-size: 25px;
+    padding-bottom:20px;
+    cursor: pointer;
+  
+}
+
+.car-details-section .container .row .col-lg-8 .favorite ul li a
+{
+    text-decoration: none;
+    font-size: 25px;
+    
+}
+.car-details-section .container .row .col-lg-8 .favorite ul li:first-child i,
+.car-details-section .container .row .col-lg-8 .favorite ul li:first-child a
+{
+    color:var(--main-color)
+}
+.car-details-section .container .row .col-lg-8 .favorite ul li:last-child i,
+.car-details-section .container .row .col-lg-8 .favorite ul li:last-child a
+{
+    color:var(--main-color2)
+}
+.car-details-section .container .row .col-lg-8 .row .col-lg-6 .des
+{
+    background: #fff;
+    width:100%;
+    border-radius: 30px;
+    padding:20px;
+    margin-bottom:40px;
+}
+.car-details-section .container .row .col-lg-8 .row .col-lg-6 .des p
+{
+    margin:0;
+    font-size: 18px;
+}
+.car-details-section .container .row .col-lg-8 .row .col-lg-6 .des ul
+{
+    list-style: none;
+    margin:0;
+    padding:0;
+    padding-right: 30px;
+}
+.car-details-section .container .row .col-lg-8 .row .col-lg-6 .des ul li
+{
+    font-size: 18px;
+    padding-bottom:5px;
+}
+.car-details-section .container .row .col-lg-8 .details
+{
+    margin:40px 0;
+}
+.car-details-section .container .row .col-lg-8 .details h4
+{
+    font-weight: bold;
+    color:var(--main-color);
+    font-size: 26px;
+    padding-bottom:20px;
+}
+.car-details-section .container .row .col-lg-8 .details .text
+{
+    background: #fff;
+    border-radius: 35px;
+    text-align: center;
+    padding:30px 0;
+    box-shadow: 3px 5px 10px rgba(0,0,0,.2);
+}
+.car-details-section .container .row .col-lg-8 .details .text p
+{
+    margin:0;
+}
+.car-details-section .container .row .col-lg-8 .details form textarea
+{
+    resize: none;
+    width:100%;
+    box-shadow: 3px 5px 10px rgba(0,0,0,.2);
+    border:0;
+    border-radius: 15px;
+    padding:20px;
+}
+.car-details-section .container .row .col-lg-8 .details form textarea:focus
+{
+    outline: none;
+}
+.car-details-section .container .row .col-lg-8 .details form textarea::placeholder
+{
+    font-size: 22px;
+    color:#ccc;
+}
+.car-details-section .container .row .col-lg-8 .send
+{
+    background: linear-gradient(to top, var(--main-color) , var(--main-color2));
+    text-decoration: none;
+    color:#fff;
+    font-size: 22px;
+    text-align: center;
+    font-weight: bold;
+    display: inline-block;
+    border-radius: 25px;
+    padding:10px 100px;
+}
+.car-details-section .container .row .col-lg-4 .car-details
+{
+    text-align: right;
+    margin-top:100px;
+}
+.car-details-section .container .row .col-lg-4 .car-details .price
+{
+    text-align: center;
+    background: #fff;
+    border-radius: 30px;
+    padding:10px;
+    box-shadow: 3px 5px 10px rgba(0,0,0,.2);
+    margin-bottom:50px;
+}
+.car-details-section .container .row .col-lg-4 .car-details .price p
+{
+    color:var(--main-color);
+    font-size: 40px;
+    font-weight:600;
+    margin:0;
+}
+.car-details-section .container .row .col-lg-4 .car-details .message
+{
+    background: var(--main-color);
+    margin-bottom:50px;
+    border-radius: 30px;
+    text-align: center;
+    padding:15px;
+    width:100%;
+}
+.car-details-section .container .row .col-lg-4 .car-details .message a
+{
+    text-decoration: none;
+    color:#fff;
+    font-weight: 600;
+    font-size: 22px;
+}
+.car-details-section .container .row .col-lg-4 .car-details .message.call
+{
+    background: var(--main-color2);
+}
+.car-details-section .container .row .col-lg-4 .car-details .media
+{
+    background: #fff;
+    padding:20px;
+    border-radius: 10px;
+}
+.car-details-section .container .row .col-lg-4 .car-details .media i
+{
+    font-size: 40px;
+    margin-left: 20px;
+    margin-top:10px;
+}
+.car-details-section .container .row .col-lg-4 .car-details .media h5
+{
+    color:var(--main-color);
+    font-size: 30px;
+}
+.car-details-section .container .row .col-lg-4 .car-details .media p
+{
+    color:var(--main-color);
+    padding-top:5px;
+    font-weight: 600;
+}
+.car-details-section .container .row .col-lg-4 .car-details .media a
+{
+    display: inline-block;
+    color:#000;
+    text-decoration: none;
+}
+.car-details-section .container .row .col-lg-4 .car-details .box
+{
+    background: #646464;
+    border-radius: 10px;
+    padding:10px;
+    margin-top:50px;
+}
+.car-details-section .container .row .col-lg-4 .car-details .box h3
+{
+    color:#fff;
+    font-size: 25px;
+    padding:10px 0 20px;
+    text-align: center;
+}
+.car-details-section .container .row .col-lg-4 .car-details .box ul
+{
+    list-style: none;
+    margin:0;
+    padding:0;
+}
+.car-details-section .container .row .col-lg-4 .car-details .box ul li
+{
+    color:#fff;
+    padding-bottom:10px;
+    position: relative;
+    padding-right:25px;
+}
+.car-details-section .container .row .col-lg-4 .car-details .box ul li:before
+{
+    content:'';
+    position: absolute;
+    right: 0;
+    top:7px;
+    background:var(--main-color2);
+    width:12px;
+    height:12px;
+    border-radius: 50%;
+}
+/******************media query*******************/
+@media(max-width:991px) {
+    .search-items .row .search form .form-group {
+        margin-bottom: 30px;
+    }
+
+    .choose-items .service {
+        width: 140px;
+        margin: 0 auto;
+        margin-bottom: 40px;
+    }
+
+    .choose-items form .form-control {
+        width: 100%;
+        margin-bottom: 40px;
+    }
+
+    .recently-ads {
+        margin-right: 10px;
+    }
+
+    .recently-ads .card {
+        margin-bottom: 40px;
+    }
+
+    .subscribe-with-us form {
+        width: 100%;
+    }
+    .cars-section .container .row .search form .form-group
+    {
+        margin-bottom:30px;
+    }
+    .favourite-ads
+    {
+        margin-right: 10px;
+    }
+    .favourite-ads .card
+    {
+        margin-bottom:40px;
+    }
+}
+
+@media(max-width:768px) {
+    .register-details .container .row .col-lg-12 .register {
+        display: block;
+    }
+
+    .register-details .container .row .col-lg-12 .register .image {
+        padding: 20px;
+        border-radius: 10px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
+    }
+
+    .register-details .container .row .col-lg-12 .register .signup .link {
+        padding: 6px 80px;
+    }
+}
