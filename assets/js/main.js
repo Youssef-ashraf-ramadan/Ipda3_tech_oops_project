@@ -18,7 +18,9 @@ buttons[i].addEventListener('click' , function(){
 
 }
 
-
+$('.fa-star').click(function() {
+    $(this).toggleClass('far fas');
+  })
 // prevent default from login if input is empty 
 loginbutton.addEventListener('click' , function(e){
     if(entercode.value == ""){
@@ -26,3 +28,7 @@ loginbutton.addEventListener('click' , function(e){
         alert('empty data')
     }
 })
+
+
+
+	

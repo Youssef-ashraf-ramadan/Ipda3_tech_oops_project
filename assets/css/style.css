@@ -1005,6 +1005,7 @@ select:focus {
     height:12px;
     border-radius: 50%;
 }
+
 /******************media query*******************/
 @media(max-width:991px) {
     .search-items .row .search form .form-group {
